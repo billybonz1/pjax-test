@@ -1,0 +1,310 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"/>
+        <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+        <link rel="stylesheet" type="text/css" href="libs/icomoon/style.css"/>
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body class="bg-gray">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="modal fade sign-up-form" id="sign-up" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Войти на сайт</h4>
+              </div>
+              <div class="modal-body">
+                <form class='sign-up-form'>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Пароль">
+                  </div>
+                  <button type="submit" class="bttn bttn-yellow">Войти</button>
+                  <a href="" class="forgot-password">Забыли пароль?</a>
+                </form>
+                <div class="social-auth">
+                  <h3>Войти с помощью</h3>
+                  <a href="" class="vk">
+                    <img src="img/auth/vk.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="ok">
+                    <img src="img/auth/ok.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="mailru">
+                    <img src="img/auth/mailru.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="fb">
+                    <img src="img/auth/fb.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="">
+                    <img src="img/auth/1.jpg" height="27" width="26" alt="">
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="top-banner hidden-xs">
+          <div class="top-banner__inner">
+            <div class="top-banner__child">
+              EARN <strong>DOUBLE POINTS</strong>&nbsp; OR DOUBLE MILES <strong>THE CHOICE</strong> IS YOURS
+            </div>
+            <div class="top-banner__helper"></div>
+            <a href="#" class="top-banner__btn gray-gradient">Sign up</a>
+          </div>
+        </div>
+        
+        <!-- HEADER -->
+        <header id="main_header">
+          <div class="header__wrap">
+            <div class="header__inner clearfix">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle mob-menu-control" data-toggle="collapse" data-target="#mobile-menu">
+                      <span class="sr-only">Открыть навигацию</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="./" class="navbar-brand header__logo">
+                    <img src="img/logo.png" height="31" width="181" alt="">
+                  </a>
+              </div>
+              <div class="collapse mobile-menu" id="mobile-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости страны</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости авиакомпаний</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости отелей</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сервисы и возможности</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Принимающие туроператоры</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+
+              <div class="rubricator-shower hidden-xs">
+                Рубрикатор
+                <span class="caret"></span>
+              </div>
+              <div class="top-mnu hidden-xs">
+                    <ul class="top-mnu__wrap clearfix">
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости страны</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости авиакомпаний</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости отелей</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Сервисы и возможности</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Принимающие туроператоры</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+              <select name="" id="countries" class="header-select countries">
+                <option value="">Все страны</option>
+                <option value="">Англия</option>
+              </select>
+
+              <div class="change-bg clearfix hidden-xs">
+                <div class="change-bg__value active" data-value="gray"></div>
+                <div class="change-bg__value" data-value="white"></div>
+                <div class="change-bg__value" data-value="dark-blue"></div>
+                <div class="change-bg__value" data-value="green"></div>
+                <div class="change-bg__value" data-value="blue"></div>
+              </div>
+              
+              <div class="auth clearfix hidden-xs" id="auth">
+                <a href="" class="auth__sign-in" data-toggle="modal" data-target="#sign-up">Вход</a>
+                <a href="./reg.html" class="auth__sign-up">Регистрация</a>
+              </div>
+
+              <div class="social hidden-xs">
+                <a href="" class="facebook">
+                  <i></i>
+                </a>
+                <a href="" class="youtube"></a>
+                <a href="" class="instagramm"></a>
+                <a href="" class="vk"></a>
+              </div>
+
+              <div class="header-search hidden-xs">
+                <input type="text" placeholder="Поиск">
+                <input type="submit">
+              </div>
+
+              <select class="header-select lang pull-right" name="" id="lang">
+                <option value="">Rus</option>
+                <option value="">Eng</option>
+              </select>
+            </div>
+          </div>
+        </header>
+        <!-- HEADER END -->
+        
+        <div class="content"> 
+          <div class="grid grid-3 clearfix">
+            <div class="grid__item four-fifth">
+              <h1 class="bottom-line">О проекте</h1>
+              <div class="about">
+                <p>Настоящий сайт является электронным средством массовой информации.</p>
+                <p>
+                Свидетельство о регистрации средства массовой информации XX № ФСXX-XXXXXX выдано ДД месяц 2015 года Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор).</p>
+                <br>
+                <p>
+                Свидетельство выдано за подписью Заместителя руководителя А. Б. Пугачевой и Начальника Управления разрешительной работы в сфере массовых коммуникаций М. Ъ. Галкина.
+                </p>
+
+                <p>
+                Название: Travelinfo.pro <br>
+                Перевод названия на государственный язык РФ: ТрэвелИнфо.про
+                </p>
+                <p>
+                Адрес редакции: 119017, г. Москва , ул. Пятницкая, д. 43, стр. 3, офис 5. <br> 
+                Доменное имя сайта в сети Интернет: Travelinfo.pro <br>
+                Форма периодического распространения: электронное сетевое издание</p>
+                <div class="bs-info">
+                  <div>Учредитель: Денисов Дмитрий Сергеевич </div>
+                  <div> Главный редактор: Гжибовский Кирилл Николаевич </div>
+                </div>
+                <p>Настоящее средство массовой информации выходит ежедневно и беcтиражно</p>
+              </div>
+            </div>
+            <div class="grid__item sidebar">
+              <div class="content__left_column-banner">
+                <img src="img/img-banner-renault.jpg" alt="">
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="content__right_column-banner">
+                <img src="img/img-banner-motor.jpg" alt="">
+              </div>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+  
+        <footer>
+            <div class="footer-menu">
+              <ul>
+                <li><a href="./about.html">О проекте</a></li>
+                <li><a href="./contact_us.html">Связаться с нами</a></li>
+                <li><a href="./reklama.html">Реклама на сайте</a></li>
+              </ul>
+            </div>
+            <div class="copyright">
+              © 2015 TravelInfo <span>Проект системы  <a href="">Unihotel</a></span>
+            </div>
+            
+            <div class="statistic">
+              <img src="img/statistic.png" width="88" height="15">
+            </div>
+        </footer>
+        
+        <button type="button" class="btn" id="top">
+          <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+        </button>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
+        <script type="text/javascript" src="libs/bootstrap-select/bootstrap-select.min.js"></script>
+        <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+        <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="libs/smoothscroll/jquery.simplr.smoothscroll.min.js"></script>
+        <script type="text/javascript" src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,896 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"/>
+        <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+        <link rel="stylesheet" type="text/css" href="libs/icomoon/style.css"/>
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body class="bg-gray">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="modal fade sign-up-form" id="sign-up" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Войти на сайт</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Пароль">
+                  </div>
+                  <button type="submit" class="bttn bttn-yellow">Войти</button>
+                  <a href="" class="forgot-password">Забыли пароль?</a>
+                </form>
+                <div class="social-auth">
+                  <h3>Войти с помощью</h3>
+                  <a href="" class="vk">
+                    <img src="img/auth/vk.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="ok">
+                    <img src="img/auth/ok.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="mailru">
+                    <img src="img/auth/mailru.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="" class="fb">
+                    <img src="img/auth/fb.jpg" height="27" width="26" alt="">
+                  </a>
+                  <a href="">
+                    <img src="img/auth/1.jpg" height="27" width="26" alt="">
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade advert-cats" id="advert-cats" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Разделы для рекламы</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Главная страница + страница просмотра любой новости</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Популярные новости</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Фото</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Регистрация на сайте</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Интерактив</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Последние нововсти</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Новости страны и все подкатегории</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Новости авиакомпаний и все подкатегории</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Новости отелей и все подкатегории</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Новости о сервисах и возможностях места/страны</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Принимающие туроператоры</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Страница О проекте</span>
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <i></i>
+                    <span>Страница Связаться с нами</span>
+                  </label>
+                  <button type="submit" class="bttn bttn-yellow" data-dismiss="modal">Готово</button>
+                </form>
+                
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade order-advert" id="order-advert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Заказать рекламу</h4>
+              </div>
+              <div class="modal-body">
+                <form id="order-advert-form" data-toggle="validator" role="form">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Представьтесь" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="phone" class="form-control" placeholder="Номер телефона" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="mail" class="form-control" placeholder="E-mail" required>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="comment" placeholder="Комментарии к заказу"></textarea >
+                  </div>
+                  <button type="submit" class="bttn bttn-yellow">Заказать</button>
+                </form>
+                
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade success-modal" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <div class="success">
+                  <div class="success-image"></div>
+                  <div class="success-message">
+                    Спасибо!
+                    <span>Ваша заявка принята</span>
+                    <p>
+                      В ближайшее время с Вами свяжется <br> наш менеджер
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="top-banner hidden-xs">
+          <div class="top-banner__inner">
+            <div class="top-banner__child">
+              EARN <strong>DOUBLE POINTS</strong>&nbsp; OR DOUBLE MILES <strong>THE CHOICE</strong> IS YOURS
+            </div>
+            <div class="top-banner__helper"></div>
+            <a href="#" class="top-banner__btn gray-gradient">Sign up</a>
+          </div>
+        </div>
+        
+        <!-- HEADER -->
+        <header id="main_header">
+          <div class="header__wrap">
+            <div class="header__inner clearfix">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle mob-menu-control" data-toggle="collapse" data-target="#mobile-menu">
+                      <span class="sr-only">Открыть навигацию</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="./" class="navbar-brand header__logo">
+                    <img src="img/logo.png" height="31" width="181" alt="">
+                  </a>
+              </div>
+              <div class="collapse mobile-menu" id="mobile-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости страны</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости авиакомпаний</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости отелей</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сервисы и возможности</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Принимающие туроператоры</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+
+              <div class="rubricator-shower hidden-xs">
+                Рубрикатор
+                <span class="caret"></span>
+              </div>
+              <div class="top-mnu hidden-xs">
+                    <ul class="top-mnu__wrap clearfix">
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости страны</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости авиакомпаний</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости отелей</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Сервисы и возможности</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Принимающие туроператоры</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+              <select name="" id="countries" class="header-select countries">
+                <option value="">Все страны</option>
+                <option value="">Англия</option>
+              </select>
+
+              <div class="change-bg clearfix hidden-xs">
+                <div class="change-bg__value active" data-value="gray"></div>
+                <div class="change-bg__value" data-value="white"></div>
+                <div class="change-bg__value" data-value="dark-blue"></div>
+                <div class="change-bg__value" data-value="green"></div>
+                <div class="change-bg__value" data-value="blue"></div>
+              </div>
+              
+              <div class="auth clearfix hidden-xs" id="auth">
+                <a href="" class="auth__sign-in" data-toggle="modal" data-target="#sign-up">Вход</a>
+                <a href="./reg.html" class="auth__sign-up">Регистрация</a>
+              </div>
+
+              <div class="social hidden-xs">
+                <a href="" class="facebook">
+                  <i></i>
+                </a>
+                <a href="" class="youtube"></a>
+                <a href="" class="instagramm"></a>
+                <a href="" class="vk"></a>
+              </div>
+
+              <div class="header-search hidden-xs">
+                <input type="text" placeholder="Поиск">
+                <input type="submit">
+              </div>
+
+              <select class="header-select lang pull-right" name="" id="lang">
+                <option value="">Rus</option>
+                <option value="">Eng</option>
+              </select>
+            </div>
+          </div>
+        </header>
+        <!-- HEADER END -->
+        
+        <div class="content"> 
+          <div class="grid advert clearfix">
+            <h1 class="bottom-line">Реклама на сайте</h1>
+            <p>
+              По вопросам рекламы на сайте пишите на наш электронный <br>
+              ящик  <a href="mailto:admin@travelinfo.pro"> admin@travelinfo.pro </a>
+            </p>
+            <div class="grid__item half">
+              <div class="ad">
+                <img src="./img/choose_ad.jpg" alt="">
+              </div>
+            </div>
+            <div class="grid__item half">
+              <div class="choose-advert-block">
+                <div class="choose-advert-place">
+                  <p>Выберите рекламное место:</p>
+                  <select class="blue-select">
+                    <option value="">выбрать</option>
+                    <option value="">1</option>
+                  </select>
+                </div>
+                <div class="choose-advert-place">
+                  <p>Выберите раздел, в котором хотите <br> осуществить показ баннера:</p>
+                  <a href="" data-toggle="modal" data-target="#advert-cats">выбрать</a>
+                </div>
+                <div class="choose-advert-place">
+                  <p>Выберите период показа баннера:</p>
+                  <select class="blue-select">
+                    <option value="">выбрать</option>
+                    <option value="">1</option>
+                  </select>
+                </div>
+                <div class="choose-advert-place">
+                  <p>Выберите тип показа баннера:</p>
+                  <select class="blue-select">
+                    <option value="">выбрать</option>
+                    <option value="">1</option>
+                  </select>
+                </div>
+              </div>
+              <div class="total">Итого: <strong>0 руб.</strong></div>
+              <button class="bttn bttn-yellow" data-toggle="modal" data-target="#order-advert">Заказать</button>
+              <button class="bttn bttn-gray show-advert-all-prices">Посмотреть все цены</button>
+            </div>
+          </div>
+          <div class="advert-all-prices">
+            <div class="panel-group clearfix" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                      Главная страница
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Популярные новости
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Фото
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      Интерактив
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Новости страны и все подкатегории
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading6">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      Новости отелей и все подкатегории
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading7">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      Новости о сервисах и возможностях места/страны
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading8">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      Принимающие туроператоры
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading9">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      О проекте
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading10">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      Связатсья с нами
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                  <div class="panel-body">
+                    <table border="1">
+                      <thead>
+                        <tr>
+                          <th>Баннер</th>
+                          <th>Формат</th>
+                          <th colspan="3">Стоимость в месяц. (руб.)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td colspan="2"></td>
+                          <td>Эксклюзив</td>
+                          <td>1/2</td>
+                          <td>1/3</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1540</td>
+                          <td>1100</td>
+                        </tr>
+                        <tr>
+                          <td>A2</td>
+                          <td>240x400</td>
+                          <td>2800</td>
+                          <td>1550</td>
+                          <td>1025</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+  
+        <footer>
+            <div class="footer-menu">
+              <ul>
+                <li><a href="./about.html">О проекте</a></li>
+                <li><a href="./contact_us.html">Связаться с нами</a></li>
+                <li><a href="./reklama.html">Реклама на сайте</a></li>
+              </ul>
+            </div>
+            <div class="copyright">
+              © 2015 TravelInfo <span>Проект системы  <a href="">Unihotel</a></span>
+            </div>
+            
+            <div class="statistic">
+              <img src="img/statistic.png" width="88" height="15">
+            </div>
+        </footer>
+        
+        
+        <button type="button" class="btn" id="top">
+          <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+        </button>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
+        <script type="text/javascript" src="libs/bootstrap-select/bootstrap-select.min.js"></script>
+        <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+        <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="libs/smoothscroll/jquery.simplr.smoothscroll.min.js"></script>
+        <script type="text/javascript" src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+
+        <!--NEW-->
+        <script type="text/javascript" src="libs/bootstrap-validator/validate.js"></script>
+        <script type="text/javascript" src="libs/bootstrap-validator/h5f.js"></script>
+        <!---->
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,727 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"required"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"g",
+				"photo-page-gallery/"
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"ar",
+				"art	arcTo(x1,y1,x2,y2,radius)"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"function",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"functio",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"functi",
+				"description-Function"
+			],
+			[
+				"func",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"ja",
+				"javascript"
+			],
+			[
+				"remv",
+				"removeClass	.removeClass()"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"b",
+				"bottom_news1.jpg	w:96 h:64"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"mous",
+				"mouseout	.mouseout()"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"slid",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"po",
+				"position	Style CSS"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"gete",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"li",
+				"linkDiameter"
+			],
+			[
+				"test",
+				"testParams"
+			],
+			[
+				"let",
+				"letterCount"
+			],
+			[
+				"lte",
+				"letterCount"
+			],
+			[
+				"char",
+				"charAt(${0:index})	String"
+			],
+			[
+				"le",
+				"length	String"
+			],
+			[
+				"prot",
+				"protocol	URLUtils"
+			],
+			[
+				"consol",
+				"console.log('$0');"
+			],
+			[
+				"cons",
+				"console.log('$0');"
+			],
+			[
+				"type",
+				"typeof(${0:Object})	Object"
+			],
+			[
+				"User",
+				"username	URLUtils"
+			],
+			[
+				"y",
+				"you	(config.rb)"
+			],
+			[
+				"ad",
+				"addNewCourse"
+			],
+			[
+				"cours",
+				"courseName"
+			],
+			[
+				"fun",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"c",
+				"courses"
+			],
+			[
+				"clic",
+				"clickHandler"
+			],
+			[
+				"Hell",
+				"HelloWorldCtrl"
+			],
+			[
+				"mod",
+				"model"
+			],
+			[
+				"me",
+				"message	Event"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"hel",
+				"helloWorldApp"
+			],
+			[
+				"contro",
+				"controller	AngularJS"
+			],
+			[
+				"setTime",
+				"setTimeout(${0:func}, delay)	Window"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"textra",
+				"text-transform"
+			],
+			[
+				"lstp",
+				"list-style-type"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"pos",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/*==========  Desktop First Method  ==========*/\n/* Large Devices, Wide Screens */\n\n@media only screen and (max-width: 1200px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 17px;\n        padding-top: 22px;\n        padding-left: 130px;\n    }\n    .top-banner .top-banner-btn {\n        right: 10%;\n    }\n    .rubricator-shower {\n        margin-left: 3%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries {\n        margin-left: 1%;\n    }\n    .change-bg {\n        margin-left: 2%;\n    }\n    .auth {\n        margin-left: 4.8%;\n    }\n    .social {\n        margin-left: 0.7%;\n    }\n    .header-search {\n        margin-left: 3%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).lang {\n        margin-left: 1.6%;\n    }\n    /*HEADER END*/\n}\n\n@media only screen and (max-width: 1107px) {\n    /*HEADER*/\n    \n    .auth {\n        margin-left: 1.8%;\n    }\n    /*HEADER END*/\n}\n\n@media only screen and (max-width: 1072px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 16px;\n        padding-top: 24px;\n        padding-left: 101px;\n    }\n    .social a {\n        margin-left: 12px !important;\n    }\n    /*HEADER END*/\n}\n/* Medium Devices, Desktops */\n\n@media only screen and (max-width: 992px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 14px;\n        padding-top: 27px;\n        padding-left: 5%;\n    }\n    .top-banner .top-banner-btn {\n        right: 4%;\n    }\n    .rubricator-shower {\n        margin-left: 0%;\n        font-size: 11px;\n        padding-bottom: 17px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries {\n        margin-left: 0%;\n        width: 96px;\n    }\n    .header-select > .btn {\n        font-size: 11px;\n    }\n    .change-bg {\n        margin-left: 0%;\n    }\n    .auth {\n        margin-left: 3px;\n        width: 123px;\n    }\n    .social {\n        margin-left: 0;\n    }\n    .header-search {\n        margin-left: 0.5%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).lang {\n        margin-left: 0%;\n        width: 59px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) button {}\n    .change-bg .cb-value {\n        margin-right: 2px;\n    }\n    .auth .sign-up {\n        margin-left: 6px;\n        font-size: 11px;\n    }\n    .auth .sign-in {\n        font-size: 11px;\n        padding: 5px 7px;\n    }\n    /*HEADER END*/\n    /*CONTENT*/\n    .main-tiles .mt-new .mt-cat{\n    font-size: 1.5rem;\n}\n    .main-tiles .mt-new .mt-text{\n    font-size: 1.4rem;\n}\n.main-tiles .mt-horizontal .mt-new .mt-text{\n    font-size: 1.7rem;\n}\n\n    /*CONTENT END*/\n}\n/* Small Devices, Tablets */\n\n@media only screen and (max-width: 768px) {\n    /*HEADER*/\n    \n    header {\n        padding-bottom: 3px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {\n        display: none;\n    }\n    /*HEADER END*/\n    \n    /*CONTENT*/\n    .content {\n        margin-top: 0;\n        padding: 0;\n    }\n    .main-tiles .mt-center {\n        margin-top: 0;\n        width: 100%;\n    }\n    .main-tiles .mt-horizontal {\n        width: 100%;\n        margin: 0 0 1px 0;\n        height: auto;\n    }\n    .main-tiles .mt-horizontal .mt-new {\n        height: 250px;\n    }\n    .main-tiles .mt-small {\n        width: calc(33.333333% - 2px/3);\n        margin: 0 1px 0 0;\n    }\n    .main-tiles .mt-horizontal .mt-new h3 {\n        font-size: 30px;\n        margin-left: 20px;\n        margin-top: 32px !important;\n        color: #fff !important;\n    }\n    .main-tiles .mt-horizontal .mt-new .mt-cat {\n        left: 20px !important;\n        bottom: 21px !important;\n        opacity: 1 !important;\n    \n        font-size: 13px;\n}\n    .main-tiles .mt-horizontal .mt-new .mt-text {\n        display: none;\n    }\n    .main-tiles .mt-horizontal .mt-new .mt-params {\n        bottom: 22px;\n        width: auto;\n        right: 20px;\n    }\n    .mt-horizontal.owl .owl-pagination {\n        display: none;\n    }\n    .main-tiles .mt-small h3 {\n        font-size: 17px !important;\n        margin-left: 20px;\n        margin-top: 22px !important;\n        color: #fff !important;\n    }\n    .main-tiles .mt-small span {\n        font-size: 17px !important;\n    }\n    .main-tiles .mt-small .mt-cat {\n        display: none\n    }\n    .main-tiles .mt-small .mt-text {\n        display: none;\n    }\n    .main-tiles .mt-small .mt-params {\n        bottom: 17px;\n    }\n    /*CONTENT END*/\n}\n/* Extra Small Devices, Phones */\n\n@media only screen and (max-width: 480px) {\n    /*CONTENT*/\n    .main-tiles .mt-small:nth-child(4) {\n        display: none;\n    }\n    .main-tiles .mt-small {\n        width: calc(50% - 1px/2);\n        height: 169px;\n    }\n    .main-tiles .mt-small:nth-child(3) {\n        margin-right: 0;\n    }\n    .main-tiles .mt-horizontal .mt-new {\n        height: 169px;\n    }\n    /*CONTENT END*/\n}\n/* Custom, iPhone Retina */\n\n@media only screen and (max-width: 320px) {}\n/*==========  Mobile First Method  ==========*/\n/* Custom, iPhone Retina */\n\n@media only screen and (min-width: 320px) {}\n/* Extra Small Devices, Phones */\n\n@media only screen and (min-width: 480px) {}\n/* Small Devices, Tablets */\n\n@media only screen and (min-width: 768px) {\n    .collapse.in.mobile-menu {\n        display: none;\n    }\n}\n/* Medium Devices, Desktops */\n\n@media only screen and (min-width: 992px) {}\n/* Large Devices, Wide Screens */\n\n@media only screen and (min-width: 1200px) {}\n",
+			"settings":
+			{
+				"buffer_size": 5513,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReloa",
+				"LiveReload: Self test"
+			],
+			[
+				"Snippet: htm",
+				"Snippet: html"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Z/home/cosovan/www/travel-info/www"
+	],
+	"file_history":
+	[
+		"/Z/home/cosovan/www/travel-info/www/css/main.css",
+		"/Z/home/cosovan/www/travel-info/www/css/fonts.css",
+		"/Z/home/cosovan/www/travel-info/www/css/media.css",
+		"/Z/home/jedai_verstki/template_bootstrap/js/common.js",
+		"/Z/home/cosovan/www/travel-info/www/mail.php",
+		"/Z/home/cosovan/www/travel-info/www/js/main.js",
+		"/Z/home/cosovan/www/travel-info/www/contact_us.html",
+		"/Z/home/cosovan/www/travel-info/www/reklama.html",
+		"/Z/home/cosovan/www/travel-info/www/about.html",
+		"/Z/home/cosovan/www/travel-info/www/photo_page.html",
+		"/Z/home/cosovan/www/travel-info/www/reg.html",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-validator/h5f.js",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-validator/validate.js",
+		"/Z/home/cosovan/www/travel-info/www/news_page.html",
+		"/Z/home/cosovan/www/travel-info/www/photo.html",
+		"/Z/home/cosovan/www/travel-info/www/news_category.html",
+		"/Z/home/cosovan/www/travel-info/www/search.html",
+		"/Z/home/cosovan/www/travel-info/www/libs/smoothscroll/jquery.simplr.smoothscroll.min.js",
+		"/Z/home/cosovan/www/travel-info/www/index.html",
+		"/Z/home/cosovan/www/travel-info/www/news_page_hot.json",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-star-rating/star-rating.min.css",
+		"/Z/home/cosovan/www/travel-info/www/index.haml",
+		"/D/Git/angular-phonecat/package.json",
+		"/D/Git/gruntProject/package.json",
+		"/D/Git/angular-phonecat/testproject/config.rb",
+		"/D/Git/angular-phonecat/bower.json",
+		"/D/Git/angular-phonecat/node_modules/bower/Gruntfile.js",
+		"/Z/home/jedai_verstki/template_bootstrap/index.html",
+		"/D/Denwer/home/Angular/www/bootstrap.html",
+		"/Z/home/cosovan/www/travel-info/www/libs/icomoon/style.css",
+		"/Z/home/jedai_verstki/template_bootstrap/css/main.css",
+		"/C/Users/Artem_2/AppData/Local/Temp/Rar$DR02.240/silviomoreto-bootstrap-select-a8ed49e/less/bootstrap-select.less",
+		"/C/Users/Artem_2/AppData/Local/Temp/Rar$DR91.240/silviomoreto-bootstrap-select-a8ed49e/less/variables.less",
+		"/D/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/Z/home/jedai_verstki/template_bootstrap/css/media.css",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/common.js",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/media.css",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/animate-css.js",
+		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/main.css",
+		"/D/Denwer/home/Angular/www/stayingsharp/js/angular.min.js",
+		"/D/Denwer/home/Angular/www/js/angular.min.js",
+		"/D/Unity/Projects/Test/Web/Web.html",
+		"/D/Denwer/home/Angular/www/sublime3.html",
+		"/D/Denwer/home/Angular/www/style.css",
+		"/D/Denwer/home/Angular/www/style.scss",
+		"/D/Denwer/home/Angular/www/base.scss",
+		"/D/Denwer/home/Angular/www/index.html",
+		"/D/Denwer/home/Angular/www/angularEssentials/angularEssential.html",
+		"/D/SublimeText3/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/Denwer/home/Angular/www/base.css",
+		"/Z/home/Angular/www/style.scss",
+		"/Z/home/Angular/www/javascript/script.js",
+		"/D/Denwer/home/Angular/www/canvas/index.html",
+		"/D/Denwer/home/Angular/www/canvas/script.js",
+		"/D/Denwer/home/Angular/www/product-panels.html",
+		"/Z/home/Angular/www/base.scss",
+		"/Z/home/Angular/www/config.rb",
+		"/Z/home/Angular/www/css/style.css",
+		"/C/Users/Artem_2/Desktop/Vector Smart Object.svg",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/main2.js",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/swfobject2.2.js",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/tpl2.comment.js",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/tpl2.view.js",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/widgets.js",
+		"/Z/home/gavrilenko/www/japanese/www/index.html",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com.html",
+		"/Z/home/gavrilenko/www/japanese/www/Japanese obedient girl. Amateur23 - xHamster.com_files/cnt.php",
+		"/D/Denwer/home/Angular/www/javascript/bestpractices.js",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR40.296/001_Introduction/Samples/010_Forms.html",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR91.592/001_Introduction/Samples/009_Grid.html",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR12.888/001_Introduction/Samples/008_Tables.html",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR49.888/001_Introduction/Samples/007_Buttons.html",
+		"/D/Denwer/home/Angular/www/js/app.js",
+		"/D/Denwer/home/Angular/www/config.rb",
+		"/D/Denwer/home/Angular/www/tweenMax.html",
+		"/D/SublimeText3/Data/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR37.296/001_Introduction/Samples/Task/todo.js",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR58.480/001_Introduction/Samples/003_CoursePlanner_AngularJS.html",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR35.776/001_Introduction/Samples/002_CoursePlanner_Static.html",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR51.776/001_Introduction/Samples/002_CoursePlanner_Static.html",
+		"/D/Denwer/home/Angular/www/testing/sass/screen.scss",
+		"/Z/home/Angular/testing/stylesheets/print.css",
+		"/Z/home/Angular/testing/sass/screen.scss",
+		"/D/Denwer/home/Angular/www/scss.html",
+		"/D/nodejs/main.js",
+		"/D/Denwer/home/Angular/www/product-title.html",
+		"/D/Denwer/home/Angular/www/css/style.css",
+		"/D/Denwer/home/Angular/www/product-gallery.html",
+		"/D/Denwer/home/Angular/www/javascript/index.html",
+		"/D/Denwer/home/Angular/www/javascript/script.js",
+		"/D/Denwer/home/Angular/www/products.json",
+		"/D/Denwer/home/Angular/www/product-reviews.html",
+		"/D/Denwer/home/Angular/www/js/product.js",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/index 2.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/form.js",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/D/Denwer/home/innamudraya/www/learn.html",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/D/Denwer/home/fort/www/js/jcarousel/js.show_me.js",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR09.184/owl-carousel/owl.theme.css",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR54.184/owl-carousel/owl.carousel.js",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/reviews_slider.php",
+		"/D/Denwer/home/beyourself/www/1/index.html",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/main.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/menu.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/common.js",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/media.css",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/slickadmin.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/consultation_slider.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/front-page.php",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR17.712/parasponsive/page.php",
+		"/C/Users/artem/AppData/Local/Temp/Rar$DR15.712/parasponsive/single-portfolio.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/form.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/options_page.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/masked.input.js",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/header 2.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/functions 2.php",
+		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/thanks.html",
+		"/C/Users/artem/Desktop/beyourself/functions.php",
+		"/C/Users/artem/Desktop/beyourself/rtl.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".mt-new .mt-cat",
+			".content {",
+			".content{",
+			"content",
+			".mt-small",
+			"вшмюпкшв",
+			"Новости",
+			"Новости по теме",
+			"li",
+			"fixed",
+			"owl",
+			"fixed",
+			"icon",
+			"icon-bar",
+			"icon",
+			"white",
+			"fixed",
+			".fixed",
+			"Новости",
+			"Новости за сутки",
+			"Новости за су",
+			":hover h3",
+			"row-news__item",
+			"Новость за сутки",
+			"Новости дня",
+			"params",
+			"mt-params",
+			"main-tiles",
+			"change-bg .cb-value",
+			".search",
+			"jquery",
+			"jqu",
+			"xEvent.mIn",
+			"hint",
+			".langBox",
+			"ifra",
+			"box",
+			"xCnt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"change-bg__value",
+			".header-search"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2864,
+								2977
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "Z:\\home\\cosovan\\www\\travel-info\\www",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.51043219076,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "travel-info.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Z:\\home\\digital-tutors\\www\\digitl-tutors.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
